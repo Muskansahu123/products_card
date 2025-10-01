@@ -10,7 +10,7 @@ export default function ThemeToggleButton() {
       onClick={toggleTheme}
       className="px-1 py-1 my-4 rounded-md bg-orange-800 text-white cursor-pointer"
     >
-      {isDark ? "🌙 Dark Mode" : "☀️ Light Mode"}
+      {isDark ? "☀️ Light Mode" : "🌙 Dark Mode"}
     </button>
   );
 }
