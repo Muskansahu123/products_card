@@ -16,7 +16,7 @@
       "originalPrice": 5999,
       "discountPrice": 3999,
       "rating": 5,
-      "image": "/table_image.jpg",
+     "image": "/sofa_image.jpg",
       "description": "A sleek glass coffee table with a modern touch, ideal for your living space."
     },
     {
@@ -35,7 +35,7 @@
       "originalPrice": 12999,
       "discountPrice": 9999,
       "rating": 4,
-      "image": "/dining_table.jpg",
+      "image": "/sofa_image.jpg",
       "description": "A durable wooden dining table with a classic design, perfect for family meals."
     },
     {
@@ -45,7 +45,7 @@
       "discountPrice": 6499,
       "rating": 4,
       "sale": true,
-      "image": "/office_chair.jpg",
+      "image": "/sofa_image.jpg",
       "description": "An ergonomic office chair designed for long working hours with maximum comfort."
     }
   ],
