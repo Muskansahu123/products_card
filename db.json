@@ -1,5 +1,4 @@
 {
- 
   "products": [
     {
       "id": 1,
@@ -9,53 +8,53 @@
       "rating": 4,
       "sale": true,
       "image": "/sofa_image.jpg",
-      "description": "A stylish and comfortable wooden chair perfect for your home."
+      "description": "A stylish and comfortable wooden chair with a soft cushion, perfect for living rooms."
     },
     {
       "id": 2,
-      "title": "Modern Wooden Chair with Soft Cushion",
-      "originalPrice": 3999,
-      "discountPrice": 2499,
-      "rating": 4,
-      "image": "/sofa_image.jpg",
-      "description": "A stylish and comfortable wooden chair perfect for your home."
+      "title": "Elegant Glass Coffee Table",
+      "originalPrice": 5999,
+      "discountPrice": 3999,
+      "rating": 5,
+      "image": "/table_image.jpg",
+      "description": "A sleek glass coffee table with a modern touch, ideal for your living space."
     },
     {
       "id": 3,
-      "title": "Modern Wooden Chair with Soft Cushion",
-      "originalPrice": 3999,
-      "discountPrice": 2499,
-      "rating": 4,
+      "title": "Luxury Leather Sofa",
+      "originalPrice": 19999,
+      "discountPrice": 14999,
+      "rating": 5,
       "sale": true,
       "image": "/sofa_image.jpg",
-      "description": "A stylish and comfortable wooden chair perfect for your home."
+      "description": "A premium leather sofa offering both comfort and elegance for your home."
     },
     {
       "id": 4,
-      "title": "Modern Wooden Chair with Soft Cushion",
-      "originalPrice": 3999,
-      "discountPrice": 2499,
+      "title": "Classic Wooden Dining Table",
+      "originalPrice": 12999,
+      "discountPrice": 9999,
       "rating": 4,
-      "image": "/sofa_image.jpg",
-      "description": "A stylish and comfortable wooden chair perfect for your home."
+      "image": "/dining_table.jpg",
+      "description": "A durable wooden dining table with a classic design, perfect for family meals."
     },
     {
       "id": 5,
-      "title": "Modern Wooden Chair with Soft Cushion",
-      "originalPrice": 3999,
-      "discountPrice": 2499,
+      "title": "Ergonomic Office Chair",
+      "originalPrice": 8999,
+      "discountPrice": 6499,
       "rating": 4,
       "sale": true,
-      "image": "/sofa_image.jpg",
-      "description": "A stylish and comfortable wooden chair perfect for your home."
+      "image": "/office_chair.jpg",
+      "description": "An ergonomic office chair designed for long working hours with maximum comfort."
     }
   ],
-
 
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
+
   "profile": {
     "name": "typicode"
   }
