@@ -45,22 +45,22 @@ export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const getProducts = async () => {
-  //     try {
-  //       const res = await axios.get<Product[]>(
-  //         "https://my-json-server.typicode.com/Muskansahu123/products_card/products"
-  //       );
-  //       setProducts(res.data);
-  //     } catch (error) {
-  //       console.error("Error fetching products:", error);
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
+  useEffect(() => {
+    const getProducts = async () => {
+      try {
+        const res = await axios.get<Product[]>(
+          "https://my-json-server.typicode.com/Muskansahu123/products_card/products"
+        );
+        setProducts(res.data);
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  //   getProducts();
-  // }, []);
+    getProducts();
+  }, []);
 
   return (
     <main
