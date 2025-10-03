@@ -34,7 +34,7 @@ export default function ProductCard(Props: IProductCard) {
       transition={{ type: "spring", stiffness: 200, damping: 15 }}
       className={`w-full ${
         isDark ? "bg-gray-800" : "bg-white"
-      } rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 mx-auto`}
+      } rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 mx-auto ${className || ''}`}
       role="region"
       aria-label={`Product card for ${product.title}`}
     >
@@ -106,7 +106,7 @@ export default function ProductCard(Props: IProductCard) {
               isDark ? "text-gray-400" : "text-gray-600"
             }`}
           >
-            ({product.rating})
+            ({product.rating ?? 0})
           </span>
         </div>
 
